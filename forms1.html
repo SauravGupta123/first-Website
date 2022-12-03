@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>
+        DETAILS
+    </h1>
+
+    <form action="/" method="post">
+        <div>
+            <label for="uname"> Username</label><br>
+            <input type="text" id="uname" name="uname" required="true">
+
+        </div>
+
+        <div>
+            <label for="pw"> password</label> <br>
+            <input type="password" id="pw" name="pasword" minlength="3" required="true">
+        </div>
+        <!-- <div>
+        <label for="mail"> Email ID:</label><br>
+        <input type="email" required placeholder="abs@yahoo.com" id="mail">
+
+    </div> -->
+        <!-- <div>
+
+        <label for="bar"> Excitement Level</label> <br>
+        <input type="range" min="0" max="100" steps="10" id="bar">
+        
+    </div> -->
+
+        <div>
+            <label for="dob"> Date of Birth</label><br>
+
+            <input type="week" name="dob" id="dob" required>
+        </div>
+
+        <div>
+
+            <label for="country">Country </label> <br>
+            <input type="country" required name="country" value="india" disabled>
+        </div>
+
+
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male" required> male &nbsp;
+            <input type="radio" name="gender" value="female"> female &nbsp;
+            <input type="radio" name="gender" value="other"> other <br>
+        </div>
+
+        <div>
+            <label for=" ">Skills:</label>
+            <input type="checkbox" name="skills" value="c++"> C++
+            <input type="checkbox" name="skills" value="java">java
+            <input type="checkbox" name="skills" value="python">python
+
+        </div>
+
+
+
+
+        <div>
+            <br>
+            <button type="reset"> reset</button>&nbsp;
+            <button type="submit"> submit</button><br>
+
+
+        </div>
+        <label for="choosefile"></label>
+        <input  type="file" name="choosefile" accept=".pdf,video/*">
+    </form>
+
+
+
+</body>
+
+</html>
